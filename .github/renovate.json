@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", "schedule:earlyMondays"],
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackageNames": ["/^@repo//"]
+    }
+  ],
+  "updateInternalDeps": true,
+  "rangeStrategy": "bump",
+  "automerge": true,
+  "timezone": "America/Phoenix"
+}
