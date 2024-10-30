@@ -1,15 +1,23 @@
 {
-  "name": "@repo/ui",
+  "name": "@repo/theme",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "pnpm typecheck && tsup",
+    "check-exports": "attw --pack . --ignore-rules cjs-resolves-to-esm",
     "clean": "rm -rf .turbo node_modules dist",
+    "dev": "tsup --watch",
     "lint": "eslint . --max-warnings 0",
     "typecheck": "tsc --noEmit"
   },
@@ -20,6 +28,7 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1"
+    "@types/react-dom": "^18.3.1",
+    "tsup": "^8.3.5"
   }
 }

@@ -5,9 +5,15 @@ export default [
   {
     languageOptions: {
       parserOptions: {
-        project: ['./tsconfig.json'],
+        project: ['./tsconfig.json', './tsconfig.lint.json'],
         tsconfigRootDir: import.meta.dirname,
       },
+    },
+  },
+  {
+    files: ['**/lib/**/*.ts'],
+    rules: {
+      'sort-keys-fix/sort-keys-fix': 'off',
     },
   },
 ];

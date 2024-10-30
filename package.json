@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "turbo build",
+    "check-exports": "turbo check-exports",
     "clean": "turbo clean && rm -rf .turbo node_modules",
     "dev": "turbo dev",
     "format": "prettier -uwl --cache .",
@@ -21,6 +22,7 @@
     }
   },
   "devDependencies": {
+    "@arethetypeswrong/cli": "^0.16.4",
     "@commitlint/config-conventional": "^19.5.0",
     "@repo/eslint-config": "workspace:*",
     "@types/node": "^22.8.4",
