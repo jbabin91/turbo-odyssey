@@ -6,7 +6,7 @@
     "build": "turbo build",
     "clean": "turbo clean && rm -rf .turbo node_modules",
     "dev": "turbo dev",
-    "format": "prettier -uw --cache .",
+    "format": "prettier -uwl --cache .",
     "format:check": "prettier -uc --cache .",
     "postinstall": "pnpm lint:ws",
     "lint": "turbo lint --continue -- --max-warnings 0 --cache --cache-location node_modules/.cache/eslint/.eslintcache",
