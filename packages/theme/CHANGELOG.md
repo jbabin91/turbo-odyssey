@@ -1,5 +1,11 @@
 # @jbabin91/theme
 
+## 0.2.3
+
+### Patch Changes
+
+- [`33e0117`](https://github.com/jbabin91/turbo-odyssey/commit/33e011714031f0b858e52191a55459b1a7de1617) - refactor(theme): :recycle: refactor theme package
+
 ## 0.2.2
 
 ### Patch Changes
