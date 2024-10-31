@@ -1,5 +1,16 @@
 # @jbabin91/theme
 
+## 0.2.1
+
+### Patch Changes
+
+- [`255642f`](https://github.com/jbabin91/turbo-odyssey/commit/255642ff5235aef2fb4f3381694a314fe0ed457b) - fix(theme): :bug: fix import issues
+
+- [`d7d20e6`](https://github.com/jbabin91/turbo-odyssey/commit/d7d20e6a2365be308807f66b7a580c6adf7631b8) - chore(design-tokens): :hammer: change package name
+
+- Updated dependencies [[`d7d20e6`](https://github.com/jbabin91/turbo-odyssey/commit/d7d20e6a2365be308807f66b7a580c6adf7631b8)]:
+  - @jbabin91/design-tokens@0.0.2
+
 ## 0.2.0
 
 ### Minor Changes
