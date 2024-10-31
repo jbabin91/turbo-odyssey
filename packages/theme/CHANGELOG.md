@@ -1,5 +1,13 @@
 # @jbabin91/theme
 
+## 0.2.2
+
+### Patch Changes
+
+- [`b4f2392`](https://github.com/jbabin91/turbo-odyssey/commit/b4f23925bbf111ae652f8941b68aa756996e8460) - ci(repo): :ferris_wheel: add turbo env variables to workflows
+
+- [`b4f2392`](https://github.com/jbabin91/turbo-odyssey/commit/b4f23925bbf111ae652f8941b68aa756996e8460) - chore(theme): :hammer: change package dependency
+
 ## 0.2.1
 
 ### Patch Changes
