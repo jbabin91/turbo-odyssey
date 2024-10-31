@@ -1,7 +1,6 @@
 {
-  "name": "@repo/design-tokens",
+  "name": "@jbabin91/design-tokens",
   "version": "0.0.1",
-  "private": true,
   "type": "module",
   "exports": {
     ".": {

@@ -1,4 +1,4 @@
-# @repo/design-tokens
+# @jbabin91/design-tokens
 
 ## 0.0.1
 

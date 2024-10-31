@@ -23,13 +23,13 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@jbabin91/design-tokens": "workspace:*",
     "@mui/lab": "6.0.0-beta.14",
     "@mui/material": "^6.1.6",
     "@mui/system": "^6.1.6",
     "@mui/x-data-grid": "^7.22.0",
     "@mui/x-date-pickers": "^7.22.0",
     "@mui/x-tree-view": "^7.22.0",
-    "@repo/design-tokens": "workspace:*",
     "react": "^18.3.1"
   },
   "devDependencies": {
