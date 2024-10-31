@@ -12,6 +12,7 @@ module.exports = {
   prompt: {
     alias: {
       b: 'chore(repo): :hammer: bump dependencies',
+      c: 'chore(repo): :hammer: add changesets',
     },
     allowCustomIssuePrefix: false,
     allowEmptyIssuePrefix: false,
