@@ -10,4 +10,11 @@ export default [
       },
     },
   },
+  {
+    files: ['**/theme/**/*.ts'],
+    rules: {
+      '@typescript-eslint/consistent-type-definitions': 'off',
+      'sort-keys-fix/sort-keys-fix': 'off',
+    },
+  },
 ];

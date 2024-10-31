@@ -1,3 +1,1 @@
-export * from './button.js';
-export * from './card.js';
-export * from './code.js';
+export { theme } from './theme/index.js';
