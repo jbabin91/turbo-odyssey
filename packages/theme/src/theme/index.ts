@@ -1,9 +1,9 @@
+import colors from '@jbabin91/design-tokens/colors';
 import type {} from '@mui/lab/themeAugmentation';
 import { createTheme } from '@mui/material';
 import type {} from '@mui/x-data-grid/themeAugmentation';
 import type {} from '@mui/x-date-pickers/themeAugmentation';
 import type {} from '@mui/x-tree-view/themeAugmentation';
-import colors from '@repo/design-tokens/colors';
 
 import { components } from './components.js';
 import { darkPalette, lightPalette } from './palettes.js';

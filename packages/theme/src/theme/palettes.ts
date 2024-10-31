@@ -1,5 +1,5 @@
+import colors from '@jbabin91/design-tokens/colors';
 import { type PaletteOptions } from '@mui/material';
-import colors from '@repo/design-tokens/colors';
 
 export const lightPalette = {
   text: {

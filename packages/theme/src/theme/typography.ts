@@ -1,9 +1,9 @@
+import fontFamilies from '@jbabin91/design-tokens/font-families';
+import fontSizes from '@jbabin91/design-tokens/font-sizes';
+import fontWeights from '@jbabin91/design-tokens/font-weights';
+import letterSpacings from '@jbabin91/design-tokens/letter-spacings';
+import lineHeights from '@jbabin91/design-tokens/line-heights';
 import { type TypographyOptions } from '@mui/material/styles/createTypography.js';
-import fontFamilies from '@repo/design-tokens/font-families';
-import fontSizes from '@repo/design-tokens/font-sizes';
-import fontWeights from '@repo/design-tokens/font-weights';
-import letterSpacings from '@repo/design-tokens/letter-spacings';
-import lineHeights from '@repo/design-tokens/line-heights';
 
 export const typography = {
   fontSize: 14,
