@@ -1,5 +1,11 @@
 # @jbabin91/theme
 
+## 0.2.0
+
+### Minor Changes
+
+- [`7b910c3`](https://github.com/jbabin91/turbo-odyssey/commit/7b910c3c35a549af6334dc3b6133e951d6c5665b) - feat(theme): :sparkles: create a mui theme
+
 ## 0.1.0
 
 ### Minor Changes
