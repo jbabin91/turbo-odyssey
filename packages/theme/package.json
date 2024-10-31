@@ -1,6 +1,7 @@
 {
   "name": "@jbabin91/theme",
   "version": "0.2.1",
+  "sideEffects": false,
   "type": "module",
   "exports": {
     ".": {
@@ -23,7 +24,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@jbabin91/design-tokens": "workspace:*",
+    "@jbabin91/design-tokens": "workspace:^",
     "@mui/lab": "6.0.0-beta.14",
     "@mui/material": "^6.1.6",
     "@mui/system": "^6.1.6",
@@ -33,8 +34,8 @@
     "react": "^18.3.1"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/eslint-config": "workspace:^",
+    "@repo/typescript-config": "workspace:^",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "tsup": "^8.3.5"

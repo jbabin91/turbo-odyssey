@@ -15,6 +15,9 @@ jobs:
     if: github.repository == 'jbabin91/turbo-odyssey'
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ vars.TURBO_TEAM }}
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4

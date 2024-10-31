@@ -10,6 +10,9 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ vars.TURBO_TEAM }}
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
