@@ -1,5 +1,11 @@
 # @jbabin91/theme
 
+## 0.4.0
+
+### Minor Changes
+
+- [`f914ff6`](https://github.com/jbabin91/turbo-odyssey/commit/f914ff67c58c0505c6ebe717c391bcc2a50bc407) - feat(theme): :sparkles: update mui type augmentation for css vars. export type Theme
+
 ## 0.3.0
 
 ### Minor Changes
