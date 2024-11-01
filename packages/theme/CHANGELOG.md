@@ -1,5 +1,15 @@
 # @jbabin91/theme
 
+## 0.3.0
+
+### Minor Changes
+
+- [`767c471`](https://github.com/jbabin91/turbo-odyssey/commit/767c4714bb48678f56fbe8d553de343ecbd29f24) - feat(theme): :sparkles: update styling and theme properties
+
+### Patch Changes
+
+- [`767c471`](https://github.com/jbabin91/turbo-odyssey/commit/767c4714bb48678f56fbe8d553de343ecbd29f24) - chore(repo): :hammer: bump dependencies
+
 ## 0.2.3
 
 ### Patch Changes
