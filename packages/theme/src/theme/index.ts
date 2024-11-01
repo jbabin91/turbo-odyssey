@@ -213,6 +213,20 @@ const components = {
       color: 'error',
       anchorOrigin: { vertical: 'top', horizontal: 'right' },
     },
+    styleOverrides: {
+      colorPrimary: ({ theme }) => {
+        return theme.unstable_sx({
+          backgroundColor:
+            theme.palette.mode === 'dark'
+              ? theme.palette.primary.dark
+              : undefined,
+          color:
+            theme.palette.mode === 'dark'
+              ? theme.palette.common.white
+              : undefined,
+        });
+      },
+    },
   },
   MuiButton: {
     defaultProps: {
@@ -221,6 +235,13 @@ const components = {
       color: 'primary',
       disableElevation: true,
     },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          textTransform: 'none',
+          borderRadius: '0.5rem',
+        }),
+    },
   },
   MuiLoadingButton: {
     defaultProps: {
@@ -228,6 +249,13 @@ const components = {
       size: 'medium',
       color: 'primary',
       disableElevation: true,
+    },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          textTransform: 'none',
+          borderRadius: '0.5rem',
+        }),
     },
   },
   MuiButtonGroup: {
@@ -244,6 +272,12 @@ const components = {
       color: 'primary',
       indeterminate: false,
     },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          padding: '0.5rem',
+        }),
+    },
   },
   MuiFormControlLabel: {
     defaultProps: {
@@ -257,6 +291,51 @@ const components = {
       color: 'primary',
       size: 'medium',
     },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          textTransform: 'none',
+          borderRadius: '0.5rem',
+          color: theme.palette.text.secondary,
+          backgroundColor: theme.palette.secondary.main,
+          '&.Mui-selected': {
+            color:
+              theme.palette.mode === 'light'
+                ? theme.palette.text.primary
+                : theme.palette.common.white,
+            backgroundColor: theme.palette.secondary.dark,
+          },
+        }),
+    },
+    variants: [
+      {
+        props: {
+          size: 'small',
+        },
+        style: ({ theme }) =>
+          theme.unstable_sx({
+            padding: '0.188rem',
+          }),
+      },
+      {
+        props: {
+          size: 'medium',
+        },
+        style: ({ theme }) =>
+          theme.unstable_sx({
+            padding: '0.375rem',
+          }),
+      },
+      {
+        props: {
+          size: 'large',
+        },
+        style: ({ theme }) =>
+          theme.unstable_sx({
+            padding: '0.563rem',
+          }),
+      },
+    ],
   },
   MuiToggleButtonGroup: {
     defaultProps: {
@@ -269,8 +348,49 @@ const components = {
       color: 'primary',
       size: 'small',
     },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          padding: '0.5rem',
+        }),
+    },
+    variants: [
+      {
+        props: {
+          size: 'small',
+        },
+        style: ({ theme }) =>
+          theme.unstable_sx({
+            '& .MuiSvgIcon-root': {
+              width: '1.25rem',
+              height: '1.25rem',
+            },
+          }),
+      },
+      {
+        props: {
+          size: 'medium',
+        },
+        style: ({ theme }) =>
+          theme.unstable_sx({
+            '& .MuiSvgIcon-root': {
+              width: '1.5rem',
+              height: '1.5rem',
+            },
+          }),
+      },
+    ],
   },
-  MuiSelect: {},
+  MuiSelect: {
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          '& .MuiInputBase-root': {
+            borderRadius: '0.5rem',
+          },
+        }),
+    },
+  },
   MuiSkeleton: {
     defaultProps: {
       variant: 'text',
@@ -284,10 +404,29 @@ const components = {
       minRows: 4,
       maxRows: 4,
     },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          '& .MuiInputBase-root': {
+            borderRadius: '0.5rem',
+          },
+          minWidth: '13.75rem',
+          fontSize: '1rem',
+        }),
+    },
   },
   MuiAvatar: {
     defaultProps: {
       variant: 'circular',
+    },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          height: '2rem',
+          width: '2rem',
+          fontSize: '1.125rem',
+          backgroundColor: theme.palette.primary.light,
+        }),
     },
   },
   MuiCard: {
@@ -299,6 +438,13 @@ const components = {
     defaultProps: {
       minRows: 4,
       maxRows: 4,
+    },
+    styleOverrides: {
+      root: ({ theme }) =>
+        theme.unstable_sx({
+          borderRadius: '0.5rem',
+          minWidth: '13.75rem',
+        }),
     },
   },
   MuiCssBaseline: {
@@ -315,7 +461,9 @@ export const theme = createTheme({
     light: { palette: lightPalette },
     dark: { palette: darkPalette },
   },
-  cssVariables: true,
+  cssVariables: {
+    colorSchemeSelector: 'class',
+  },
   background: {
     black: colors.common.black,
     white: colors.common.white,
