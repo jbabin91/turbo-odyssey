@@ -11,9 +11,9 @@ import {
   type Components,
   createTheme,
   type PaletteOptions,
-  type Theme,
 } from '@mui/material';
 import type { TypographyOptions } from '@mui/material/styles/createTypography.js';
+import type {} from '@mui/material/themeCssVarsAugmentation';
 import type {} from '@mui/x-data-grid/themeAugmentation';
 import type {} from '@mui/x-date-pickers/themeAugmentation';
 import type {} from '@mui/x-tree-view/themeAugmentation';
@@ -475,6 +475,8 @@ export const theme = createTheme({
   typography,
   components,
 });
+
+export type Theme = typeof theme;
 
 declare module '@mui/material/styles' {
   // Add custom typography variants
