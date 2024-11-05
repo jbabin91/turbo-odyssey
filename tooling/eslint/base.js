@@ -124,6 +124,7 @@ export default tseslint.config(
           shorthandLast: false,
         },
       ],
+      'react/prop-types': 'off',
     },
     settings: { react: { version: 'detect' } },
   },

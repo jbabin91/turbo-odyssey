@@ -5,7 +5,9 @@
   "compilerOptions": {
     "outDir": "${configDir}/dist",
     "rootDir": "${configDir}/src",
-    "tsBuildInfoFile": "${configDir}/node_modules/.cache/typescript/tsconfig.build.tsbuildinfo"
+    "tsBuildInfoFile": "${configDir}/node_modules/.cache/typescript/tsconfig.build.tsbuildinfo",
+    "module": "Preserve",
+    "moduleResolution": "Bundler"
   },
   "include": [
     "${configDir}/src/**/*.ts",
