@@ -1,5 +1,17 @@
 # @jbabin91/theme
 
+## 0.5.0
+
+### Minor Changes
+
+- [`20f400c`](https://github.com/jbabin91/turbo-odyssey/commit/20f400ca44a43b339fa3b76c03769c3dea501531) - feat(theme): :sparkles: add components for dashboard layout support
+
+### Patch Changes
+
+- [`20f400c`](https://github.com/jbabin91/turbo-odyssey/commit/20f400ca44a43b339fa3b76c03769c3dea501531) - chore(repo): :hammer: bump dependencies
+
+- [`20f400c`](https://github.com/jbabin91/turbo-odyssey/commit/20f400ca44a43b339fa3b76c03769c3dea501531) - chore(repo): :hammer: bump dependencies
+
 ## 0.4.0
 
 ### Minor Changes
