@@ -35,17 +35,38 @@ export { Notification } from './components/notifications/notification.js';
 // Providers
 export type { AppProviderProps } from './providers/app-provider.js';
 export { AppProvider } from './providers/app-provider.js';
-export type { AuthenticationProviderProps } from './providers/authentication-provider.js';
+export type {
+  Authentication,
+  AuthenticationProviderProps,
+} from './providers/authentication-provider.js';
 export { AuthenticationProvider } from './providers/authentication-provider.js';
-export type { BrandingProviderProps } from './providers/branding-provider.js';
+export type {
+  Branding,
+  BrandingProviderProps,
+} from './providers/branding-provider.js';
 export { BrandingProvider } from './providers/branding-provider.js';
 export type { LocaleProviderProps } from './providers/locale-provider.js';
 export { LocaleProvider } from './providers/locale-provider.js';
-export type { NavigationProviderProps } from './providers/navigation-provider.js';
+export type {
+  Navigation,
+  NavigationDividerItem,
+  NavigationItem,
+  NavigationPageItem,
+  NavigationProviderProps,
+  NavigationSubheaderItem,
+} from './providers/navigation-provider.js';
 export { NavigationProvider } from './providers/navigation-provider.js';
-export type { NotificationsProviderProps } from './providers/notifications-provider.js';
+export type {
+  NotificationsProviderProps,
+  NotificationsProviderSlotProps,
+  NotificationsProviderSlots,
+  ShowNotificationOptions,
+} from './providers/notifications-provider.js';
 export { NotificationsProvider } from './providers/notifications-provider.js';
-export type { SessionProviderProps } from './providers/session-provider.js';
+export type {
+  Session,
+  SessionProviderProps,
+} from './providers/session-provider.js';
 export { SessionProvider } from './providers/session-provider.js';
 export type { ThemeProviderProps } from './providers/theme-provider.js';
 export { ThemeProvider } from './providers/theme-provider.js';

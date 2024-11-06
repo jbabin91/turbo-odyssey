@@ -47,6 +47,10 @@
     "tsup": "^8.3.5"
   },
   "peerDependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^6.1.6",
+    "@tanstack/react-router": "1.79.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
   }

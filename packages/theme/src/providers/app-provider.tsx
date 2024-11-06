@@ -24,7 +24,7 @@ export type AppProviderProps = {
    * Branding options for the app.
    * @default null
    */
-  branding?: Branding;
+  branding?: Branding | null;
   /**
    * Navigation definition for the app.
    * @default []

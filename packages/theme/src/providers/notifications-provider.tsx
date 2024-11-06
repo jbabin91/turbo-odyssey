@@ -12,13 +12,14 @@ import {
   type NotificationsState,
 } from '../components/notifications';
 
-export type NotificationsContextValue = {
+type NotificationsContextValue = {
   show: ShowNotification;
   close: CloseNotification;
 };
 
-export const NotificationsContext =
-  createContext<NotificationsContextValue | null>(null);
+const NotificationsContext = createContext<NotificationsContextValue | null>(
+  null,
+);
 
 let nextId = 0;
 function generateId() {

@@ -5,13 +5,13 @@ type BrandingState = {
   logo?: React.ReactNode;
 };
 
-export type Branding = BrandingState | null;
+export type Branding = BrandingState;
 
-const BrandingContext = createContext<Branding>(null);
+const BrandingContext = createContext<Branding | null>(null);
 
 export type BrandingProviderProps = {
   children: React.ReactNode;
-  branding: Branding;
+  branding: Branding | null;
 };
 
 export function BrandingProvider({
