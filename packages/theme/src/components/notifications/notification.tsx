@@ -32,7 +32,7 @@ export function Notification({
   options,
   badge,
 }: NotificationProps) {
-  const { close } = useNotifications();
+  const notification = useNotifications();
 
   const { severity, actionText, onAction, autoHideDuration } = options;
 
@@ -41,9 +41,9 @@ export function Notification({
       if (reason === 'clickaway') {
         return;
       }
-      close(notificationKey);
+      notification?.close(notificationKey);
     },
-    [notificationKey, close],
+    [notification, notificationKey],
   );
 
   const action = (

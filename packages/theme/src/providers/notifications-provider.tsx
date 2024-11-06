@@ -149,11 +149,6 @@ type CloseNotification = (key: string) => void;
 
 export function useNotifications() {
   const context = useContext(NotificationsContext);
-  if (context === undefined || context === null) {
-    throw new Error(
-      'useNotifications must be used within a NotificationsProvider',
-    );
-  }
   return context;
 }
 
