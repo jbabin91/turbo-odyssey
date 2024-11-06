@@ -1,5 +1,11 @@
 # @jbabin91/theme
 
+## 0.6.0
+
+### Minor Changes
+
+- [`df6d8ab`](https://github.com/jbabin91/turbo-odyssey/commit/df6d8ab5d1759b655c1d89cfafb85f98d7c710ab) - feat(theme): :sparkles: add missing types
+
 ## 0.5.0
 
 ### Minor Changes

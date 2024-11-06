@@ -1,6 +1,6 @@
 {
   "name": "@jbabin91/theme",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "sideEffects": false,
   "type": "module",
   "exports": {
