@@ -127,7 +127,7 @@ const darkPalette = {
   },
   background: {
     default: colors.navy[900],
-    paper: '#071433',
+    paper: colors.navy[800],
   },
   divider: 'rgba(255,255,255,0.12)',
 } satisfies PaletteOptions;

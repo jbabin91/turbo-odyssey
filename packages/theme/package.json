@@ -34,11 +34,14 @@
     "@mui/x-date-pickers": "^7.22.1",
     "@mui/x-tree-view": "^7.22.1",
     "@tanstack/react-router": "^1.79.0",
+    "invariant": "^2.2.4",
+    "path-to-regexp": "^8.2.0",
     "react": "^18.3.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:^",
     "@repo/typescript-config": "workspace:^",
+    "@types/invariant": "^2.2.37",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "tsup": "^8.3.5"
