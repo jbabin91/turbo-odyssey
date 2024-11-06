@@ -1,5 +1,11 @@
 # @jbabin91/theme
 
+## 0.6.2
+
+### Patch Changes
+
+- [`b8650fb`](https://github.com/jbabin91/turbo-odyssey/commit/b8650fbd4c76fda35ba8efbeb3a93ce14ecb29c2) - fix(theme): :bug: add notification provider to app provider
+
 ## 0.6.1
 
 ### Patch Changes
