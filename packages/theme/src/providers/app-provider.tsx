@@ -7,6 +7,7 @@ import {
 import { type Branding, BrandingProvider } from './branding-provider';
 import { LocaleProvider, type useLocaleText } from './locale-provider';
 import { type Navigation, NavigationProvider } from './navigation-provider';
+import { NotificationsProvider } from './notifications-provider';
 import { type Session, SessionProvider } from './session-provider';
 import { ThemeProvider } from './theme-provider';
 
@@ -61,9 +62,11 @@ export function AppProvider({
         <SessionProvider session={session}>
           <NavigationProvider navigation={navigation}>
             <ThemeProvider theme={theme}>
-              <BrandingProvider branding={branding}>
-                {children}
-              </BrandingProvider>
+              <NotificationsProvider>
+                <BrandingProvider branding={branding}>
+                  {children}
+                </BrandingProvider>
+              </NotificationsProvider>
             </ThemeProvider>
           </NavigationProvider>
         </SessionProvider>
