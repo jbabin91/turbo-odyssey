@@ -1,5 +1,11 @@
 # @jbabin91/theme
 
+## 0.6.1
+
+### Patch Changes
+
+- [`7c5c14a`](https://github.com/jbabin91/turbo-odyssey/commit/7c5c14a6ec2d3b5af37ccce12ee28b6588331888) - fix(theme): :bug: fix issue with useNotifications
+
 ## 0.6.0
 
 ### Minor Changes
