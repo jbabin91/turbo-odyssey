@@ -1,5 +1,11 @@
 # @jbabin91/theme
 
+## 0.6.3
+
+### Patch Changes
+
+- [`595769c`](https://github.com/jbabin91/turbo-odyssey/commit/595769c938add0ec7698a7dee88434ed0720aefe) - chore(repo): :hammer: bump dependencies
+
 ## 0.6.2
 
 ### Patch Changes
