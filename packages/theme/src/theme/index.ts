@@ -470,7 +470,11 @@ export const theme = createTheme({
     navy: colors.navy[900],
   },
   status: {
-    danger: colors.orange[500],
+    default: colors.navy[500],
+    danger: colors.red[500],
+    success: colors.green[500],
+    warning: colors.orange[500],
+    pending: colors.blue[500],
   },
   typography,
   components,
@@ -507,7 +511,11 @@ declare module '@mui/material/styles' {
       navy: string;
     };
     status: {
+      default: string;
       danger: string;
+      success: string;
+      warning: string;
+      pending: string;
     };
   }
   // allow configuration using `createTheme`
@@ -518,7 +526,11 @@ declare module '@mui/material/styles' {
       navy?: string;
     };
     status?: {
+      default?: string;
       danger?: string;
+      success?: string;
+      warning?: string;
+      pending?: string;
     };
   }
 }
