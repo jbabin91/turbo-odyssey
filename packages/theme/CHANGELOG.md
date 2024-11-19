@@ -1,5 +1,15 @@
 # @jbabin91/theme
 
+## 0.9.0
+
+### Minor Changes
+
+- [`4e3f0bb`](https://github.com/jbabin91/turbo-odyssey/commit/4e3f0bbf79366d284bf4b99c4e578ae9f93c9703) - feat(theme): :sparkles: add new color variables
+
+### Patch Changes
+
+- [`4e3f0bb`](https://github.com/jbabin91/turbo-odyssey/commit/4e3f0bbf79366d284bf4b99c4e578ae9f93c9703) - chore(theme): :hammer: update dependencies
+
 ## 0.8.0
 
 ### Minor Changes
