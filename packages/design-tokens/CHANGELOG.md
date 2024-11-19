@@ -1,5 +1,11 @@
 # @jbabin91/design-tokens
 
+## 0.1.0
+
+### Minor Changes
+
+- [`bd07e0e`](https://github.com/jbabin91/turbo-odyssey/commit/bd07e0ed1edede1e3e4670d739e69ccf4f36f77f) - feat(design-tokens,theme): :sparkles: add package linting
+
 ## 0.0.2
 
 ### Patch Changes
