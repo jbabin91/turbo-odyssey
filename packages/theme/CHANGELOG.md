@@ -1,5 +1,22 @@
 # @jbabin91/theme
 
+## 0.8.0
+
+### Minor Changes
+
+- [`6a31d14`](https://github.com/jbabin91/turbo-odyssey/commit/6a31d1485010212cdd95a12add618f3e337ea3ab) - feat(design-tokens,theme): :sparkles: add package linting
+
+### Patch Changes
+
+- [`6a31d14`](https://github.com/jbabin91/turbo-odyssey/commit/6a31d1485010212cdd95a12add618f3e337ea3ab) - chore(theme): :hammer: update denpendency
+
+- [`6a31d14`](https://github.com/jbabin91/turbo-odyssey/commit/6a31d1485010212cdd95a12add618f3e337ea3ab) - chore(repo): :hammer: add changesets
+
+- [`6a31d14`](https://github.com/jbabin91/turbo-odyssey/commit/6a31d1485010212cdd95a12add618f3e337ea3ab) - chore(theme): :hammer: update dependency version
+
+- Updated dependencies [[`6a31d14`](https://github.com/jbabin91/turbo-odyssey/commit/6a31d1485010212cdd95a12add618f3e337ea3ab), [`6a31d14`](https://github.com/jbabin91/turbo-odyssey/commit/6a31d1485010212cdd95a12add618f3e337ea3ab)]:
+  - @jbabin91/design-tokens@0.2.0
+
 ## 0.7.0
 
 ### Minor Changes
