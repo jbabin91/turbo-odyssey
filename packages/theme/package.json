@@ -25,7 +25,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@jbabin91/design-tokens": "workspace:*",
+    "@jbabin91/design-tokens": "^0.2.0",
     "@mui/icons-material": "^6.1.7",
     "@mui/lab": "6.0.0-beta.15",
     "@mui/material": "^6.1.7",
@@ -40,19 +40,19 @@
     "react": "^18.3.1"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:^",
-    "@repo/typescript-config": "workspace:^",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "@types/invariant": "^2.2.37",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "tsup": "^8.3.5"
   },
   "peerDependencies": {
-    "@emotion/react": "^11.4.0",
-    "@emotion/styled": "^11.3.0",
-    "@mui/material": "^6.1.6",
-    "@tanstack/react-router": "1.79.0",
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.7",
+    "@tanstack/react-router": "^1.82.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
