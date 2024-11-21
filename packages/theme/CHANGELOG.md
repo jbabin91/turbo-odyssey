@@ -1,5 +1,15 @@
 # @jbabin91/theme
 
+## 0.10.0
+
+### Minor Changes
+
+- [`fb5a8c5`](https://github.com/jbabin91/turbo-odyssey/commit/fb5a8c579b5874d7fc573a17e5fc1628fe842287) - feat(theme): :sparkles: update theme with chip colors
+
+### Patch Changes
+
+- [`fb5a8c5`](https://github.com/jbabin91/turbo-odyssey/commit/fb5a8c579b5874d7fc573a17e5fc1628fe842287) - chore(repo): :hammer: bump dependencies
+
 ## 0.9.0
 
 ### Minor Changes
