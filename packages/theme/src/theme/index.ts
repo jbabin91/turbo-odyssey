@@ -458,8 +458,28 @@ const components = {
 
 export const theme = createTheme({
   colorSchemes: {
-    light: { palette: lightPalette },
-    dark: { palette: darkPalette },
+    light: {
+      palette: {
+        ...lightPalette,
+        chip: {
+          success: {
+            main: colors.green['100'],
+            contrastText: colors.green['900'],
+          },
+        },
+      },
+    },
+    dark: {
+      palette: {
+        ...darkPalette,
+        chip: {
+          success: {
+            main: colors.green['800'],
+            contrastText: colors.green['50'],
+          },
+        },
+      },
+    },
   },
   cssVariables: {
     colorSchemeSelector: 'class',
@@ -471,7 +491,7 @@ export const theme = createTheme({
   },
   status: {
     default: colors.navy[500],
-    danger: colors.red[500],
+    error: colors.red[500],
     success: colors.green[500],
     warning: colors.orange[500],
     pending: colors.blue[500],
@@ -504,6 +524,18 @@ declare module '@mui/material/Typography' {
 }
 
 declare module '@mui/material/styles' {
+  interface PaletteOptions {
+    chip?: {
+      success?: PaletteOptions['primary'];
+    };
+  }
+
+  interface Palette {
+    chip: {
+      success: Palette['primary'];
+    };
+  }
+
   interface Theme {
     background: {
       black: string;
@@ -512,7 +544,7 @@ declare module '@mui/material/styles' {
     };
     status: {
       default: string;
-      danger: string;
+      error: string;
       success: string;
       warning: string;
       pending: string;
@@ -527,7 +559,7 @@ declare module '@mui/material/styles' {
     };
     status?: {
       default?: string;
-      danger?: string;
+      error?: string;
       success?: string;
       warning?: string;
       pending?: string;
