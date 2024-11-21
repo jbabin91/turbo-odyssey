@@ -1,5 +1,13 @@
 # @jbabin91/theme
 
+## 0.10.1
+
+### Patch Changes
+
+- [`cee473c`](https://github.com/jbabin91/turbo-odyssey/commit/cee473c803c824125c08bf76b1f93e36ceb1c3ad) - chore(deps): update dependency @mui/material to ^6.1.8
+
+- [`cee473c`](https://github.com/jbabin91/turbo-odyssey/commit/cee473c803c824125c08bf76b1f93e36ceb1c3ad) - chore(deps): update emotion monorepo to ^11.13.5
+
 ## 0.10.0
 
 ### Minor Changes
