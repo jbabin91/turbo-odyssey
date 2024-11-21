@@ -34,7 +34,7 @@
     "@mui/x-data-grid": "^7.22.3",
     "@mui/x-date-pickers": "^7.22.3",
     "@mui/x-tree-view": "^7.22.1",
-    "@tanstack/react-router": "^1.82.1",
+    "@tanstack/react-router": "^1.82.2",
     "invariant": "^2.2.4",
     "path-to-regexp": "^8.2.0",
     "react": "^18.3.1"
