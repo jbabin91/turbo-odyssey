@@ -34,7 +34,7 @@
     "@repo/eslint-config": "workspace:*",
     "@types/node": "^22.9.3",
     "changeset-conventional-commits": "^0.2.5",
-    "commitlint": "^19.6.0",
+    "commitlint": "^19.6.1",
     "cz-git": "^1.11.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
