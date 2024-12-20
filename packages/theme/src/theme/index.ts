@@ -465,6 +465,8 @@ export const theme = createTheme({
           success: {
             main: colors.green['100'],
             contrastText: colors.green['900'],
+            focus: '#96B6A6',
+            hover: colors.green['200'],
           },
         },
       },
@@ -476,6 +478,8 @@ export const theme = createTheme({
           success: {
             main: colors.green['800'],
             contrastText: colors.green['50'],
+            focus: 'rgba(255,255,255,0.2)',
+            hover: 'rgba(255,255,255,0.12)',
           },
         },
       },
@@ -526,13 +530,23 @@ declare module '@mui/material/Typography' {
 declare module '@mui/material/styles' {
   interface PaletteOptions {
     chip?: {
-      success?: PaletteOptions['primary'];
+      success?: PaletteOptions['primary'] & {
+        focus?: string;
+        hover?: string;
+        deleteIcon?: string;
+        deleteIconHover?: string;
+      };
     };
   }
 
   interface Palette {
     chip: {
-      success: Palette['primary'];
+      success: Palette['primary'] & {
+        focus: string;
+        hover: string;
+        deleteIcon: string;
+        deleteIconHover: string;
+      };
     };
   }
 

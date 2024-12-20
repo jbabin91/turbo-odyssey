@@ -1,7 +1,7 @@
-import base from '@repo/eslint-config/base.js';
+import { config as baseConfig } from '@repo/eslint-config/base';
 
 export default [
-  ...base,
+  ...baseConfig,
   { ignores: ['packages/**', 'tooling/**'] },
   {
     languageOptions: {

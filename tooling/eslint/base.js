@@ -8,11 +8,13 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 // @ts-ignore
 import sortKeysFix from 'eslint-plugin-sort-keys-fix';
+import turboPlugin from 'eslint-plugin-turbo';
 import unicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+/** @type {import("typescript-eslint").Config} */
+export const config = tseslint.config(
   {
     ignores: ['**/node_modules/**', '**/dist/**', '**/.turbo/**'],
   },
@@ -29,6 +31,7 @@ export default tseslint.config(
       'import-x': importX,
       'simple-import-sort': simpleImportSort,
       'sort-keys-fix': sortKeysFix,
+      turbo: turboPlugin,
       unicorn,
     },
     rules: {
@@ -40,6 +43,7 @@ export default tseslint.config(
       'simple-import-sort/exports': 'error',
       'simple-import-sort/imports': 'error',
       'sort-keys-fix/sort-keys-fix': 'error',
+      'turbo/no-undeclared-env-vars': 'warn',
       'unicorn/filename-case': [
         'error',
         {

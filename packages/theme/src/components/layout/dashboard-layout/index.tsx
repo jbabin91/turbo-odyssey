@@ -177,8 +177,9 @@ export function DashboardLayout({
 
     setIsNavigationFullyExpanded(false);
 
-    // eslint-disable-next-line @typescript-eslint/no-empty-function
-    return () => {};
+    return () => {
+      // do nothing
+    };
   }, [isNavigationExpanded, theme]);
 
   const selectedItemIdRef = useRef('');

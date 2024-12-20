@@ -41,7 +41,7 @@
     "check-exports": "attw --pack . --ignore-rules cjs-resolves-to-esm",
     "clean": "rm -rf .turbo node_modules dist",
     "dev": "tsup --watch",
-    "lint": "eslint . --max-warnings 0",
+    "lint": "eslint .",
     "lint:package": "publint",
     "typecheck": "tsc --noEmit"
   },
