@@ -1,5 +1,34 @@
 # @jbabin91/theme
 
+## 0.10.3
+
+### Patch Changes
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(eslint): :hammer: update eslint configs and fix issues with rules
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update dependency @mui/material to ^6.2.1 (#35)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update dependency @tanstack/react-router to ^1.82.8 (#25)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(repo): :hammer: bump dependencies
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update dependency @tanstack/react-router to ^1.82.2
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update react monorepo (#31)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update emotion monorepo to ^11.14.0 (#36)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- Updated dependencies [[`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a)]:
+  - @jbabin91/design-tokens@0.2.1
+
 ## 0.10.2
 
 ### Patch Changes
