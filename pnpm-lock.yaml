@@ -84,8 +84,8 @@ importers:
         specifier: ^11.14.0
         version: 11.14.0(@emotion/react@11.14.0(@types/react@18.3.18)(react@18.3.1))(@types/react@18.3.18)(react@18.3.1)
       '@jbabin91/design-tokens':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: workspace:^
+        version: link:../design-tokens
       '@mui/icons-material':
         specifier: ^6.3.1
         version: 6.3.1(@mui/material@6.3.1(@emotion/react@11.14.0(@types/react@18.3.18)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@18.3.18)(react@18.3.1))(@types/react@18.3.18)(react@18.3.1))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@18.3.18)(react@18.3.1)
@@ -707,9 +707,6 @@ packages:
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
-
-  '@jbabin91/design-tokens@0.2.0':
-    resolution: {integrity: sha512-tUBu9YofOywd/NszMuko+H2Z0FYSPEU8PtGShIauIpKmi+TJvHBeMW/L62xqMOeDsFkAxpN0kbqf7VMCnbdyvQ==}
 
   '@jridgewell/gen-mapping@0.3.8':
     resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
@@ -4378,8 +4375,6 @@ snapshots:
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
-
-  '@jbabin91/design-tokens@0.2.0': {}
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
