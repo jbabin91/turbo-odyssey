@@ -1,5 +1,38 @@
 # @jbabin91/theme
 
+## 0.10.4
+
+### Patch Changes
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(eslint): :hammer: update eslint configs and fix issues with rules
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update dependency @tanstack/react-router to ^1.82.8 (#25)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update dependency @mui/material to ^6.2.1 (#35)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(theme): :hammer: update project dependencies
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update emotion monorepo to ^11.14.0 (#36)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update dependency @tanstack/react-router to ^1.82.2
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(deps): update react monorepo (#31)
+
+  Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(repo): :hammer: add changesets
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(repo): :hammer: bump dependencies
+
+- Updated dependencies [[`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb), [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb)]:
+  - @jbabin91/design-tokens@0.2.2
+
 ## 0.10.3
 
 ### Patch Changes
