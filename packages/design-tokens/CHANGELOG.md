@@ -1,5 +1,11 @@
 # @jbabin91/design-tokens
 
+## 0.2.1
+
+### Patch Changes
+
+- [`46245f7`](https://github.com/jbabin91/turbo-odyssey/commit/46245f7c63e6d48ee88d2fdc4b38025ce3d09d6a) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(eslint): :hammer: update eslint configs and fix issues with rules
+
 ## 0.2.0
 
 ### Minor Changes
