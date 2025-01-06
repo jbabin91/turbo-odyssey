@@ -1,5 +1,13 @@
 # @jbabin91/design-tokens
 
+## 0.2.2
+
+### Patch Changes
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(eslint): :hammer: update eslint configs and fix issues with rules
+
+- [`55e3a70`](https://github.com/jbabin91/turbo-odyssey/commit/55e3a70e750b12d15af75c259249642eeb8eb6eb) Thanks [@jbabin91](https://github.com/jbabin91)! - chore(repo): :hammer: add changesets
+
 ## 0.2.1
 
 ### Patch Changes
