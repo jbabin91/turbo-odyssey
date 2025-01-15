@@ -1,10 +1,10 @@
 {
   "recommendations": [
-    "editorconfig.editorconfig",
+    "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "yoavbls.pretty-ts-errors",
     "dotenv.dotenv-vscode",
-    "davidanson.vscode-markdownlint"
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors"
   ]
 }
