@@ -1,13 +1,14 @@
-/* eslint-disable no-undef */
 const fs = require('node:fs');
 const path = require('node:path');
+
+import { defineConfig } from 'cz-git';
 
 // const apps = fs.readdirSync(path.resolve(__dirname, 'apps'));
 const packages = fs.readdirSync(path.resolve(__dirname, 'packages'));
 const tooling = fs.readdirSync(path.resolve(__dirname, 'tooling'));
 
 /** @type {import("cz-git").UserConfig} */
-module.exports = {
+export default defineConfig({
   extends: ['@commitlint/config-conventional'],
   prompt: {
     alias: {
@@ -28,4 +29,4 @@ module.exports = {
     'subject-empty': [2, 'never'],
     'subject-min-length': [2, 'always', 2],
   },
-};
+});
